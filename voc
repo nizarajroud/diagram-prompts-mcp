@@ -1,0 +1,37 @@
+Customization: Customize diagram appearance, layout, and styling
+
+
+Adjust ec2 instance frame for better organized content. 
+
+I'll change the links to orthogonal instead of straight lines.
+Adjust all frames for better organized content. use orthogonal links
+I just see a placeholder 
+
+
+ pkill -f "aws_diagram_mcp_server"
+
+
+ my_resources Folder should be inside the generated diagram folder to have things works  correctly. 
+ And you SHOULD  run QCLI from the parent path, NOT from the generated diagram. 
+
+ Tout simplement, il faut tout d'abord demander de créer l'architecture, ensuite placer le dossier Custom Resources ou My Resources dans le Generated Diagram et lui demander de régénérer le diagramme. 
+
+
+create an improved version of the cdbac-architecture diagram with clearer design and better font visibility.
+
+created a compact version optimized for half A4 paper with:
+
+
+- **Font size**: 18pt
+- **DPI**: 300
+- **Node spacing**: 0.8
+- **Rank spacing**: 1.2
+
+Agent bedrock test app : le prompt à développer c'est pour le MCP awslabs.aws-diagram-mcp-server qui va créer l'architecture visuellement en se basant sur des instructions?
+Donc, en se basant sur les références de document, essaye d'écrire les instructions nécessaires à ce MCP serveur pour faire le travail nécessaire et créer une architecture pour l'option 2 de monotonisation.
+
+claude web : Peux-tu reformuler le contenu ci-dessous sans aucune modification de contenu? Juste pour avoir un prompt cohérent qui va être adressé à un serveur MCP qui s'appelle  awslabs.aws-diagram-mcp-serve et qui permet de générer des diagrammes d'architecture à partir d'imprimantes bien cohérents et bien clair
+
+qcli : Read prompt.md and use it with awslabs.aws-diagram-mcp-server
+
+@dg/dg "Je génère une architecture serverless qui inclut un code pipeline pour le build, la partie sécurité et la partie gouvernance en utilisant de l'endzone et en définissant le périmètre de Cloud AWS avec une communication direct connect avec un centre on-premise."
