@@ -40,6 +40,11 @@
 - Icônes AWS standards
 - Conformité: AWS Well-Architected Framework
 
+**RESSOURCES PERSONNALISÉES:**
+- Vérifier le dossier `my_ressources` pour les icônes/ressources personnalisées
+- Utiliser les ressources personnalisées si disponibles pour les services spécifiques
+- Importer depuis `my_ressources` en priorité avant les icônes AWS standards
+
 ---
 
 ## DESCRIPTION DE L'ARCHITECTURE (MODIFIEZ UNIQUEMENT CETTE SECTION)
