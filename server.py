@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
 from mcp.server.fastmcp import FastMCP
+from pathlib import Path
 
-mcp = FastMCP("diagram-prompts")
+mcp = FastMCP("dg")
 
 @mcp.prompt()
-def dg(description: str) -> str:
+def dg(description: str = "", description_file: str = "") -> str:
     """AWS Architecture Diagram Generator
     
     Args:
         description: Architecture description (e.g., 'EC2 instance with ALB and RDS database')
+        description_file: Path to file containing architecture description
     """
+    if description_file:
+        description = Path(description_file).read_text()
     return f"""# AWS Architecture Diagram - Template V2 (Single Placeholder)
 
 

@@ -30,8 +30,13 @@ created a compact version optimized for half A4 paper with:
 Agent bedrock test app : le prompt à développer c'est pour le MCP awslabs.aws-diagram-mcp-server qui va créer l'architecture visuellement en se basant sur des instructions?
 Donc, en se basant sur les références de document, essaye d'écrire les instructions nécessaires à ce MCP serveur pour faire le travail nécessaire et créer une architecture pour l'option 2 de monotonisation.
 
-claude web : Peux-tu reformuler le contenu ci-dessous sans aucune modification de contenu? Juste pour avoir un prompt cohérent qui va être adressé à un serveur MCP qui s'appelle  awslabs.aws-diagram-mcp-serve et qui permet de générer des diagrammes d'architecture à partir d'imprimantes bien cohérents et bien clair
+claude web : Peux-tu reformuler le contenu ci-dessous sans aucune modification de contenu? Juste pour avoir un prompt cohérent qui va être adressé à un serveur MCP qui s'appelle  awslabs.aws-diagram-mcp-serve et qui permet de générer des diagrammes d'architecture à partir des exigences  bien cohérents et bien clair, essaie de retirer toutes les exigences de design et mettre le focus juste sur le contenu technique. 
 
 qcli : Read prompt.md and use it with awslabs.aws-diagram-mcp-server
 
 @dg/dg "Je génère une architecture serverless qui inclut un code pipeline pour le build, la partie sécurité et la partie gouvernance en utilisant de l'endzone et en définissant le périmètre de Cloud AWS avec une communication direct connect avec un centre on-premise."
+
+@dg/dg --description_file /path/to/file.md
+
+
+Adjust the edge from MFT to Smart Stream to avoid overlapping with reporting frame. 
