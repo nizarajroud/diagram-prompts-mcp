@@ -40,3 +40,23 @@ qcli : Read prompt.md and use it with awslabs.aws-diagram-mcp-server
 
 
 Adjust the edge from MFT to Smart Stream to avoid overlapping with reporting frame. 
+
+
+updated the diagram to use PNG format icons from GitHub avatars
+
+
+,
+    "local.awslabs.aws-diagram-mcp-server": {
+      "command": "/home/nizar/HomeWspce/mcp/src/aws-diagram-mcp-server/.venv/bin/python",
+      "args": [
+        "-m",
+        "awslabs.aws_diagram_mcp_server.server"
+      ],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": true
+
+
+
+      @dg/dg "Les target groups de type instance actuellement configurés dans les ALB du compte Perimeter ne supportent pas le partage cross-account via RAM, ce qui limite les options d'exposition de services hébergés dans d'autres comptes Workload."
